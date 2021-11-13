@@ -1,10 +1,10 @@
-import React from 'react'
+import { Fragment } from "react";
 
 const HomePage = () => {
     return (
-        <div>
-            <hi>HomePage</hi>
-        </div>
+        <Fragment>
+          
+        </Fragment>
     )
 }
 
