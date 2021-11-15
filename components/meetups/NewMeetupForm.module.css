@@ -1,6 +1,8 @@
+.container {
+  width: 100%;
+}
 .form {
   padding: 1rem;
-  width: 100%;
 }
 .control {
   margin-bottom: 0.5rem;
@@ -20,12 +22,16 @@
   border: 1px solid #ccc;
   padding: 0.25rem;
   width: 100%;
+  box-shadow: 0.1rem 0rem 0.9rem -0.4rem rgba(0, 0, 0, 0.2);
 }
 .actions button {
-  display: block;
-  width: 160px;
-  height: 40px;
-  padding: 0.25rem;
+  padding: 5px 10px;
   outline: none;
-  background-color: rgb(28, 196, 92);
+  background-color: #2ee46a;
+  color: #fff;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0rem 0.7rem 1rem 0rem rgba(67, 226, 67, 0.363);
 }
