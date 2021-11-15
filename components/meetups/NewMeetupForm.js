@@ -29,7 +29,7 @@ const NewMeetupForm = (props) => {
     
 
     return (
-        <div>
+        <div className={classes.container}>
          <form className={classes.form} onSubmit={submitHandler}>
              <div className={classes.control}>
                  <label htmlFor="title"> Meetup Title</label>
